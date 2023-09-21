@@ -16,7 +16,7 @@ let songs = [
 let songItem = Array.from(document.getElementsByClassName("songItem"));
 
 // Handle Play // Pause click 
-let music = new Audio('/Music/1.mp3');
+let music = new Audio('./Music/1.mp3');
 playbtn.addEventListener('click', () => {
     if (music.paused || music.currentTime <= 0) {
         music.play();
