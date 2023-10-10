@@ -1,0 +1,146 @@
+
+/* nav start  */
+.logo_color{
+    color:rgb(42,85,229) ;
+}
+
+.logo_italic{
+  font-style: italic;
+}
+
+.nav-flex{
+    display: flex;
+  
+}
+
+.ads-flex{
+    display: flex;
+}
+
+.nav-center{
+    justify-content: center;
+}
+
+.nav-padd{
+    padding: 0px 14px;
+}
+
+.input-center{
+    align-items: center;
+
+}
+
+
+.nav-gap{
+        gap:50px;
+}
+
+.input-col{
+    background-color:  #f0f5ff;
+
+}
+
+
+.right-nav-center{
+    align-items: center;
+}
+
+.right-nav-padd{
+ padding: 0px 18px;
+}
+
+.input-height{
+     height: 40px;
+}
+
+
+
+.fit-content{
+    height: fit-content;
+}
+
+
+/* nav end  */
+
+
+
+
+/* flex start */
+
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: col;
+}
+
+/* flex end  */
+
+
+/* width start  */
+
+.width100p{
+    width:100% ;
+}
+
+.width-1489px{
+    width: 1489px;
+}
+
+
+.width80p{
+    width:100% ;
+}
+
+/* width end  */
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+
+/* padding  start*/
+
+
+
+.common-padd{
+      padding: 4px 12px;
+
+}
+
+/* padding end*/
+
+
+
+/* margin start  */
+.m12p{
+      margin: 12px;
+}
+
+.m65p{
+      margin: 65px;
+}
+
+.box-m42p{
+      margin: 42px;
+}
+
+
+
+/* margin end */
+
+
+/* border start  */
+
+.border-none{
+    border: none;
+}
+
+
+
