@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Todo-contaner{
+    height: 100%;
+    width: 100%;
+    background-color: chocolate;
+}
+
+
+.outer-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100vw;
+  
+}
+
+.inner-box{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+
+
+.top-inner-box{
+   display: flex;
+
+
+  
+   padding: 10px 0px;
+  
+}
+
+
+.top-inner-box>input{
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 12px 12px;
+    margin: 0px 0px;
+       /* background-color: blueviolet; */
+       /* color:white; */
+
+  
+}
+
+
+.top-inner-box button{
+    padding: 12px 12px;
+   font-size: larger;
+   margin: 0px 6px ;
+   background-color: blueviolet;
+   border: none;
+   color: white;
+}
+#container{
+    padding: 4px 4px;
+    background-color: red;
+}
+
+
+@media screen and (min-width:1000px) {
+    .inner-box{
+
+  
+    width: 50%;
+    height: fit-content;
+}
+
+    
+}
