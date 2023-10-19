@@ -64,7 +64,7 @@ let category = [
 
 // Array 
 // in map method one my one element come 
-console.log("category")
+// console.log("category")
 category.map((element) => {
     let image = document.createElement('img');
     image.src = element.img_src;
@@ -73,8 +73,8 @@ category.map((element) => {
     let box = document.createElement('div')
     box.appendChild(image , title)
     document.getElementById("category");
-    console.log(category)
-    console.log(box) 
+    // console.log(category)
+    // console.log(box) 
 
 });
 
@@ -101,7 +101,7 @@ let image_slide = [
 ]
 
 
-image_slide.map((element) => {
+image_slide.forEach((element) => {
 
     let image_slide = document.getElementById('image-slide');
     image_slide.className = "flex"
@@ -112,6 +112,17 @@ image_slide.map((element) => {
 
 })
 
+
+// image_slide.map((element) => {
+
+//     let image_slide = document.getElementById('image-slide');
+//     image_slide.className = "flex"
+//     let slide = document.createElement('img');
+//     slide.src = element.img_src;
+//     image_slide.append(slide);
+//     // console.log(slide);
+
+// })
 
 
 
@@ -148,7 +159,7 @@ ads.map((element) => {
     let ads_div = document.createElement('div');
     ads_div.append(ads_img);
     // console.log(ads_img)
-    console.log(ads_div)
+    // console.log(ads_div)
     ads_sec.appendChild(ads_div)
     ads_img.className = " width80p m12p"
 
@@ -156,10 +167,5 @@ ads.map((element) => {
 })
 
 
-
 // start end 
-
-
-
-
 

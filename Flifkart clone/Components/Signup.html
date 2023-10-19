@@ -10,36 +10,50 @@
         <link rel="stylesheet" href="../CSS/utility.css">
     </head>
     <body>
-        <div id="container">
+        <script src="../JS/signup.js" defer></script>
+
+        <!-- nav start  -->
+        <div id="nav">
+            <!-- nav bar apply here using jquary  -->
 
         </div>
 
+
+        <!-- nav end  -->
+
+
+        <!-- signup start here  -->
         <div class="">
             <div class="" id="outerbox">
                 <div class="box-m42p" id="innerbox">
                     <div class="right_box"><span style="color: white ; font-size: 1.5rem; font-weight:800 ; display: block ; margin-bottom:35px ;">
                         Looks like you're new here!
 
-                    </span>
-                    <span style="color: white ; font-size: 1rem;  ; display: block;">
+                      </span>
+                      <span style="color: white ; font-size: 1rem;  ; display: block;">
                         Sign up with your mobile number to get started
-                    </span>
-                    <img src="../Image/Signup.png" alt="" style="margin-top: 95px; font-size: 15px;">
-                    
+                       </span>
+                     <img src="../Image/Signup.png" alt="" style="margin-top: 95px; font-size: 15px; display: flex; align-items: center;">
+                     
 
-</div>
+                  </div>
                     <div class="left-box">
                  
-                        <input type="text" placeholder="Enter Mobile name" title="Enter Mobile number">
+                        <input type="text" placeholder="Enter Your Name" title="Enter Mobile number" id="input-name">
                         <hr>
-                            <input type="number" placeholder="Enter Mobile No" title="Enter Mobile No">
+                            <input type="number" placeholder="Enter Mobile No" title="Enter Mobile No" id="input-mob_no">
                             <hr>
-                       <span class="m12p">
+
+                            <input type="password" placeholder="Enter Your Password" title="Enter your Password" id="input-password" >
+<hr>
+                     
+                            <span class="m12p">
+
                         By continuing, you agree to Flipkart's 
 
                       Terms of Use and Privacy Policy
                        </span>
-                       <button  style="background: #fb641b;">
+                       <button  class="continue-btn" style="background: #fb641b;" onclick="Signup()">
                         <span"> CONTINUE</span>
                        
                        </button>
@@ -49,7 +63,7 @@
                        </button>
                     </div>
 
-                    </div>
+                </div>
                 
             </div>
 
@@ -57,11 +71,16 @@
         </div>
 
 
+        <!-- sign up end  -->
+
+
     </body>
     <script>
     $(function(){
-  $("#container").load("./navbar.html");
+  $("#nav").load("./navbar.html");
 });
 
 </script>
+
+
 </html>

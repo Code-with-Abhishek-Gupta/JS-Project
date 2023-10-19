@@ -81,9 +81,11 @@ nav ul li {
 .songBanner {
     display: flex;
     align-items: center;
+    gap: 8px;
     background-color: #6b1b91;
     color: #fff6f6;
-    width: 80%;
+    width: 100%;
+    padding: 8px 18px;
     border-radius: 0px 0px 125px;
     height: 100%;
     margin-top: 15px;
@@ -94,8 +96,9 @@ nav ul li {
 }
 
 .songBanner img {
-    width: 42px;
-    height: 46px;
+    width: 60px;
+    height: 60px;
+    margin: 0px 12px;
 }
 
 .timestamp {
@@ -109,6 +112,11 @@ nav ul li {
 
 .songlistplay i {
     cursor: pointer;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
 }
 
 #myProgressbar {

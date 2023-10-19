@@ -35,6 +35,11 @@ let text = document.getElementById('text');
 
 // add_btn.addEventListener('click', (h));
 
+
+
+
+;
+
 add_btn.addEventListener('click', () => {
     if (text.value == "") {
         alert("f");
@@ -46,25 +51,37 @@ add_btn.addEventListener('click', () => {
 
         let c = document.getElementById('c');
         let span = document.createElement('span');
-        // document.removeChild()
-        // span.innerHTML = text.value;
         span.innerHTML = text.value;
         let box = document.createElement('div');
         box.id = "container"
 
-        c.appendChild(box);
-        box.append(span)
+        let remove = document.createElement('i')
+        remove.id = "removeItem"
+        remove.className = "fa fa-minus-square"
+        c.appendChild(box, remove);
+        // c.appendChild(remove)
+        box.append(span , remove)
+        
         console.log(text.value)
         text.value = "";
 
     }
 
 
-    
+
 })
 
 
 
+function RemoveTask() {
+
+
+    // let Tasklist = document.getElementById('container')
+    console.log("fff")
+
+
+}
+RemoveTask();
 
 
 
@@ -72,19 +89,21 @@ add_btn.addEventListener('click', () => {
 
 
 
-remove_btn.addEventListener('click', () => {
-    let c = document.querySelector('#c');
-    let container = document.getElementById('container')
-    c.removeChild(document.getElementById('container'))
-
-    console.log(c)
 
 
+// remove_btn.addEventListener('click', () => {
 
+//     let box = document.getElementById('container')
+//     box.removeChild;
+//     console.log(box)
 
 
 
-});
+
+
+
+
+// });
 
 
 
@@ -97,7 +116,7 @@ remove_btn.addEventListener('click', () => {
 
 // })
 
-text.value = "";
-console.log(text.value);
-console.log(text);
-console.log(c);
+// text.value = "";
+// console.log(text.value);
+// console.log(text);
+// console.log(c);

@@ -40,13 +40,17 @@ flex-direction: column;
 #nav-input{
     padding: 0px 12px;
     border-radius:12px ;
+       background-color: #f0f5ff;
 
 }
+
+
 
 #nav-center>#nav-input>i{
     width: 12px;
     height: fit-content;
     border-top-left-radius: 121px;
+
    
 }
 
@@ -56,8 +60,18 @@ flex-direction: column;
     width: 600px;
     border: none;
     font-size: 1;
+    background-color: #f0f5ff;
 
 }
+
+
+#nav-center>#nav-input>input:focus{
+
+outline: 0;
+border-width:0 0 2px ;
+    border-color: black;
+}
+
 
 
 #nav-right svg{
@@ -106,7 +120,7 @@ width: 60px;
 
 
 #image-slide>img{
- width: 100%;
+ /* width: 500px; */
 
 }
 
