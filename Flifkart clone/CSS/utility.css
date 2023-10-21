@@ -144,3 +144,90 @@
 
 
 
+/* footer css  */
+
+
+footer{
+    height: 40vh;
+    justify-content: space-between;
+    
+}
+
+footer p {
+    color: white;
+     font-weight: 400;
+   
+    
+}
+
+
+
+
+.top-footer{
+    height: 80%;
+
+}
+
+.top-footer > div{
+    width: 100%;
+    height: fit-content;
+    padding: 6px 12px;
+}
+
+.bottom-footer{
+    height: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+   
+
+}
+.footer-padd{
+    padding: 35px 10%;
+}
+
+.footer-flex{
+    display: flex;
+
+}
+
+.footer-center{
+
+    justify-content: space-between;
+}
+
+.footer-color{
+    background-color: rgb(23,35,55);
+}
+
+.footer-col{
+    flex-direction: column;
+}
+
+.footer-row{
+    flex-direction: row;
+}
+
+.footer-gap{
+    gap: 12px;
+
+}
+
+.footer-li-Primary{
+      color:  rgb(130,130,132);
+      text-decoration: none;
+      display: inline;
+      
+
+
+}
+.footer-li-secondry{
+    color: white;
+          display: inline;
+          font-size: small;
+          font-weight: 400;
+
+}
+
+

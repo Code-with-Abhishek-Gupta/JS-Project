@@ -85,7 +85,7 @@ let image_slide = [
     {
         img_src: "https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/624f9293b94ee221.jpeg?q=20",
 
-    },
+    }, 
     {
         img_src: "https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/a6d049a34b1a2468.jpg?q=20",
     },
