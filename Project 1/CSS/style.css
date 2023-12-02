@@ -93,8 +93,13 @@ main {
   align-items: center;
   width: 100%;
   overflow: hidden;
-  gap: 40px;
+
+ 
 }
+
+
+
+
 
 #image-slide > img {
   /* width: 500px; */

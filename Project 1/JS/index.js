@@ -133,16 +133,16 @@ let ads = [
   },
 ];
 
-category.map((element) => {
-  let image = document.createElement("img");
-  image.src = element.img_src;
-  let title = document.createElement("span");
-  title.innerHTML = element.title;
-  let box = document.createElement("div");
-  box.append(image, title);
-  document.getElementById("category").append(box);
-  // console.log(image, title, box)
-});
+// category.map((element) => {
+//   let image = document.createElement("img");
+//   image.src = element.img_src;
+//   let title = document.createElement("span");
+//   title.innerHTML = element.title;
+//   let box = document.createElement("div");
+//   box.append(image, title);
+//   document.getElementById("category").append(box);
+//   // console.log(image, title, box)
+// });
 
 ads.map((element) => {
   let ads_sec = document.getElementById("ads-sec");
@@ -206,4 +206,5 @@ let mob = [
 
 mob.forEach("element", () => {
   img.src = element.img_src;
+  
 });
