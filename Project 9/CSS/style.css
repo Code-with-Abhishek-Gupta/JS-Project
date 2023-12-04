@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #272323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  height: 480px;
+  display: flex;
+  width: 380px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+  position: relative;
+}
+
+#stores_div{
+   overflow-x: auto;
+   display: flex;
+    height: 120px;
+   background-color: #555;
+   overflow-y: hidden;
+}
+
+
+#stores_div::-webkit-scrollbar{
+    display: none;
+
+}
+#stores {
+  height: 80px;
+  padding: 20px 2px;
+  /* background-color: aquamarine; */
+  display: flex;
+  width: 100%;
+
+  /* background-color: red; */
+  border-bottom: 1px solid #555;
+}
+
+.story {
+  border: 3px solid red;
+  height: 80px;
+  white-space: nowrap;
+
+  border-radius: 50%;
+  width: 80px;
+}
+
+.story img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    background-color: #ec0000;
+    position: absolute;
+    display: none;
+}

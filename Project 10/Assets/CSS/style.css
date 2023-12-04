@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2::selection{
+    background-color: black;
+    color: #fff;
+ 
+}
+@font-face {
+    font-family: Futura;
+    src: url(../Fonts/Futura-Bold.ttf);
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+#Play{
+     height: 15px;
+    width: 15px;
+    color: white;
+   display: flex;
+   padding: 25px 25px;
+   align-items: center;
+   justify-content: center;
+     background-color: black;
+     border-radius: 50%;
+    position: fixed;
+    z-index: 3;
+    opacity: 0;
+    scale: 0;
+    transition: all ease-in 0.02s;
+}
+
+
+/* #cursor{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+} */
+
+main{
+    padding: 0px 12px;
+}
+
+#page1{
+   padding-top: 15vh;
+   width: 100%;
+   min-height: 100vh;
+   position: relative;
+       z-index: 1;
+}
+
+
+#page1 h2{
+  font-size: 14vw;
+  font-family: Futura;
+  line-height: 28vh;
+  letter-spacing: -2px;
+}
+
+#video-container {
+    height: 100vh;
+    width: 97%;
+    z-index: 2;
+   margin-top: 1vh;
+   position: relative;
+}
+
+
+#video-container video{
+   position: absolute;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+  
+    justify-content: space-between;
+
+}
+
+#Page2-container{
+    display: flex;
+    margin-top: 85px;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+    padding: 0% 1.5%;
+}
+
+#page2 .elem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    position: relative;
+
+background-color: red;
+
+}
+
+
+.elem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
