@@ -10,8 +10,8 @@ function play() {
 
 
         gsap.to(playEl, {
-            left: dets.x - 50,
-            top: dets.y - 20,
+            left: dets.x ,
+            top: dets.y  - 50 ,
 
         })
 
@@ -81,3 +81,10 @@ function loding() {
 
 
 loding()
+
+
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('main'),
+    smooth: true
+});
