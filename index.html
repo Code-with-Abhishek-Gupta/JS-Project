@@ -7,28 +7,42 @@
         <title>Document</title>
     </head>
     <body>
+        <div id="cursor"></div>
         <main>
-            <div class="container">
-                <div class="box">
 
-                    <div class="second-layer">
-                        <h2>Flifkart Clone</h2>
-                    </div>
+            <div class="box">
 
-                    <div class="first-layer"></div>
-                </div>
-                <div class="box">
+                <a href="./Project 1/index.html">Project 1</a>
 
-                </div>
-                <div class="box">
-
-                </div>
+            </div>
+            <div class="box">
+                <a href="./Project 2/index.html">Project 2</a>
+            </div>
+            <div class="box">
+                <a href="./Project 3/index.html">Project 3</a>
             </div>
 
-            <div class="container">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+            <div class="box">
+                <a href="./Project 4/index.html">Project 4</a>
+            </div>
+            <div class="box">
+                <a href="./Project 5/index.html">Project 5</a>
+            </div>
+            <div class="box">
+                <a href="./Project 6/form.html">Project 6</a>
+            </div>
+
+            <div class="box">
+                <a href="./Project7/index.html">Project 7</a>
+            </div>
+            <div class="box">
+                <a href="./Project 8/index.html">Project 8</a>
+            </div>
+            <div class="box">
+                <a href="./Project 9/index.html">Project 9</a>
+            </div>
+            <div class="box">
+                <a href="./Project 10/index.html">Project 10</a>
             </div>
 
         </main>
@@ -40,65 +54,69 @@
         }
         main{
             width: 100vw;
-            height: 100vh;
+            height: 150vh;
             display: flex;
            
             align-items: center;
-            justify-content: center;
+            justify-content:space-between;
             gap: 12px;
-            flex-direction: column;
+           flex-wrap: wrap;
             background-color: black;
         }
-        .container{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            height: 250px;
-          
-            
-        }
+       
 
         .box{
             width: 20%;
-            height: 100%;
-            background: linear-gradient(to left bottom , white ,  rgb(161, 158, 158) );
-            z-index: 2;
+            height: 250px;
+           background: linear-gradient(rgb(220, 117, 6) , rgb(223, 232, 223) 30% , rgb(40, 234, 10));
+margin-left: 80px;
             display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.8;
             flex-direction: column;
-            object-fit: cover;
+               z-index: 1; 
             position: relative;
             border-radius: 2%;
         }
        
-.first-layer{
-    position: absolute;
-    z-index: 4;
-    height: 100%;
-    background-color: red;
-    width: 100%;
-    opacity: 0;
-  
 
-}
-.first-layer:hover{
-    opacity: 1;
-}
+        .box:hover{
+           background-color: blueviolet;
+            cursor: pointer;
 
+        }
 
+        .box a{
+            text-decoration: none;
+            color: black;
+            font-size: 2rem;
 
-
-.second-layer{
-    position: absolute;
-    z-index: 3;
-    width: 100%;
+        }
+#cursor{
+    z-index: 0;
+    height: 180px;
+  border-radius: 50%;
+    position: fixed;
  
-    height: 100%;
-    background-color: aqua;
+    width: 180px;
+    background-color: #dd1919;
 }
       
 
       </style>
+
+        <script>
+                   let cursor = document.getElementById('cursor');
+             document.addEventListener('mousemove' , function(dets){
+          
+
+            cursor.style.left = dets.x;
+            console.log(dets.x)
+              cursor.style.top = dets.y;
+          
+        })
+      </script>
 
     </body>
 </html>
